@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jyotiraditya" />
+    <meta
+      name="description"
+      content="Contact The Striped Umbrella for inquiries and appointments. View our location on the map."
+    />
+    <title>The Striped Umbrella - Contact Us</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="assets/images/su_banner.gif"
+          alt="The Striped Umbrella Banner"
+        />
+        <nav id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="content">
+        <h2>Contact Us:</h2>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">First Name:*</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              required
+              maxlength="25"
+            /><br /><br />
+            <label for="lname">Last Name:*</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              required
+              maxlength="25"
+            /><br /><br />
+            <label for="email">Email:*</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              maxlength="35"
+            /><br /><br />
+
+            <p>Please select the music genre(s) that you like:</p>
+            <input
+              type="checkbox"
+              id="classic"
+              name="music"
+              value="classic"
+              checked
+            />
+            <label for="classic">Classic</label><br />
+            <input type="checkbox" id="jazz" name="music" value="jazz" />
+            <label for="jazz">Jazz</label><br />
+            <input type="checkbox" id="blues" name="music" value="blues" />
+            <label for="blues">Blues</label><br />
+            <input
+              type="checkbox"
+              id="instrumental"
+              name="music"
+              value="instrumental"
+            />
+            <label for="instrumental">Instrumental</label><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Your Message</legend>
+            <label for="source">How did you hear about us?</label>
+            <select id="source" name="source">
+              <option value="website">Our Website</option>
+              <option value="friends">Friends</option>
+              <option value="tv">TV Adv.</option>
+              <option value="other">Other</option></select
+            ><br /><br />
+
+            <p>Would you recommend us to your friends?</p>
+            <input type="radio" id="yes" name="recommend" value="yes" checked />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="recommend" value="no" />
+            <label for="no">No</label>
+            <input type="radio" id="maybe" name="recommend" value="maybe" />
+            <label for="maybe">Maybe</label><br /><br />
+
+            <label for="request">Your request:</label><br />
+            <textarea id="request" name="request" rows="4" cols="50"></textarea
+            ><br /><br />
+
+            <input
+              type="checkbox"
+              id="updates"
+              name="updates"
+              value="updates"
+              checked
+            />
+            <label for="updates">Sign me up for email updates</label
+            ><br /><br />
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+
+        <h3>Our Location</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.865996120294!2d-79.38976049999998!3d43.67175669999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e0b64e1140d%3A0xd11156503e310196!2sSpa%20at%20Four%20Seasons%20Toronto!5e0!3m2!1sen!2sca!4v1758809073568!5m2!1sen!2sca"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </main>
+
+      <footer>
+        <p>
+          Copyright © 2023 ILAC and EFREI Paris - HTML-CSS major lab-work -
+          created by: Jyotiraditya - All rights reserved
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
