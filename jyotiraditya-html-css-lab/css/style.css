@@ -1,0 +1,162 @@
+/* Q#: All the elements have margin of 0 */
+* {
+  margin: 0;
+}
+
+/* Q#: Display HTML5 semantic elements as block-level for older browsers */
+header, nav, main, footer, section, article, aside {
+  display: block;
+}
+
+/* Q#: Style the <body> element */
+body {
+  color: #413F3D; /* Dark, earthy text for main content */
+  background-image: url('../assets/images/dark-wood1.jpg'); /* The ../ goes up one directory from css to the root */
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+/* Q#: Style the <div> element with class "container" */
+div.container {
+  width: 950px;
+  margin: 5px auto; /* 5px top/bottom, auto left/right for centering */
+  background-color: #98b587; /* Soft Cream */
+}
+
+/* Q#: Style any element with class "content" */
+.content {
+  line-height: 1.4em;
+  padding: 10px;
+}
+
+/* Q#: Style the header, nav, and footer elements */
+header, nav, footer {
+  background-color: #194330; /* Deep Forest Green */
+  color: #FFFFFF; /* White */
+}
+
+/* Q#: Style the <ul> inside the <nav> element */
+nav ul {
+  margin: 0;
+  padding: 5px;
+}
+
+/* Q#: Style the list items <li> inside the <nav> element */
+nav li {
+  display: inline-block; /* Display horizontally */
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+/* Q#: Add pseudo-classes for navigation links */
+nav a:link {
+  color: #FFFFFF; /* White */
+}
+nav a:visited {
+  color: #E0E0E0; /* Light Gray for visited */
+}
+nav a:hover {
+  color: #A3B4A2; /* Muted Green for hover */
+}
+nav a:active {
+  color: #FCFBF4; /* Soft Cream for active */
+}
+
+/* Q#: Style any anchor <a> element */
+a {
+  color: #4A7856; /* Calming Medium Green */
+  text-decoration: none; /* No underline */
+}
+
+/* Q#: Style the h1, h2, and h3 headings */
+h1, h2, h3 {
+  margin: 10px;
+  text-transform: uppercase;
+  color: #194330; /* Deep Forest Green */
+}
+
+/* Q#: Style the custom class "img-centre" */
+.img-centre {
+  display: block;
+  margin: 5px auto; /* 5px top/bottom, auto left/right for centering */
+  padding: 2px;
+}
+
+/* Q#: Style <audio> and <video> elements */
+audio, video {
+  display: block;
+  margin: 10px auto; /* 10px top/bottom, auto left/right for centering */
+}
+
+/* Q#: Style any <table> element */
+table {
+  width: 800px;
+  margin: 10px auto; /* 10px top/bottom, auto left/right for centering */
+  border-collapse: collapse;
+}
+
+/* Q#: Style <td> and <th> elements */
+td, th {
+  border: 1px solid #A3B4A2; /* Muted Green border */
+  padding: 2px 5px;
+  background-color: #FFFFFF; /* White */
+}
+
+/* Q#: Style <th> and <td> elements inside <tfoot> */
+th, tfoot td {
+  text-transform: uppercase;
+  background-color: #E0E5E0; /* Light Green-Gray */
+  color: #194330; /* Deep Forest Green */
+}
+
+/* Q#: Style any <dt> element */
+dt {
+  font-weight: bold;
+}
+
+/* Q#: Style any <footer> element */
+footer {
+  font-size: 80%;
+  text-align: center;
+  padding: 1px 0;
+}
+
+/* Q#: Style any <iframe> element */
+iframe {
+  display: block;
+  margin: 10px auto; /* 10px top/bottom, auto left/right for centering */
+}
+
+/* Q#: Style any <fieldset> element */
+fieldset {
+  width: 500px;
+  margin: 20px auto; /* 20px top/bottom, auto left/right for centering */
+  border: 1px solid #A3B4A2; /* Muted Green */
+  background-color: #FFFFFF; /* White */
+}
+
+/* Q#: Style any <legend> element */
+legend {
+  font-style: italic;
+  color: #FFFFFF; /* White */
+  background-color: #4A7856; /* Calming Medium Green */
+  margin: 0 10px;
+  padding: 0 5px;
+  border: 1px solid #194330; /* Deep Forest Green */
+  border-radius: 8px;
+}
+
+/* Q#: Style the submit input button */
+input[type="submit"] {
+  border: 2px outset #4A7856; /* Calming Medium Green */
+  padding: 5px;
+  background-color: #194330; /* Deep Forest Green */
+  color: #FFFFFF; /* White */
+}
+
+/* Q#: Style the submit input button on hover */
+input[type="submit"]:hover {
+  background-color: #4A7856; /* Calming Medium Green */
+  color: #FFFFFF; /* White */
+  cursor: pointer; /* Changes the mouse to a hand icon */
+}
